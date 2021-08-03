@@ -41,7 +41,7 @@
  * We might need to #include some Windows header and test for some version macro from there.
  * Or call some Windows function and see what it returns.
  */
-#define USE_WINDOWS_LCID_MAPPING_API
+//#define USE_WINDOWS_LCID_MAPPING_API	// ding: fix for xp
 #include <windows.h>
 #include <winnls.h>
 #endif
