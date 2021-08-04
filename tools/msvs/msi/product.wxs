@@ -24,7 +24,7 @@
              InstallScope="perMachine"/>
 
     <Condition Message="This application is only supported on Windows 7, Windows Server 2008 R2, or higher.">
-      <![CDATA[Installed OR (VersionNT >= 601)]]>
+      <![CDATA[Installed OR (VersionNT >= 500)]]>
     </Condition>
 
     <Media Id="1" Cabinet="media1.cab" EmbedCab="yes"/>
